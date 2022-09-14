@@ -10,10 +10,10 @@ export default function ItemRepo({ repo, handleRemoveRepo }) {
             <h3>{repo.name}</h3>
             <p>{repo.full_name}</p>
             <a href={repo.html_url} target="_blank" rel="noreferrer">
-                Ver Repositório
+                Ver repositório
             </a>
             <br />
-            <a href="." className="remover" rel="noreferrer">
+            <a href="#" className="remover" rel="noreferrer">
                 Remover
             </a>
             <hr />

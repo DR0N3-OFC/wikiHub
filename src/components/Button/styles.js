@@ -10,6 +10,8 @@ export const ButtonContainer = styled.button`
 
     margin: 20px;
 
+    font-size: 16px;
+
     &:hover {
         background-color: #fafafa40;
         cursor: pointer;

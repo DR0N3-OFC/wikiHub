@@ -36,7 +36,7 @@ export default function App() {
         <Container>
             <img src={gitLogo} width={72} height={72} alt="github logo" />
             <Input
-                value={currentRepo}
+                value={currentRepo.trim()}
                 onChange={(event) => setCurrentRepo(event.target.value)}
             />
             <Button onClick={handleSearchRepo} />
