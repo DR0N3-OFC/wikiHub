@@ -13,7 +13,7 @@ export default function ItemRepo({ repo, handleRemoveRepo }) {
                 Ver Repositório
             </a>
             <br />
-            <a href="#" className="remover" rel="noreferrer">
+            <a href="." className="remover" rel="noreferrer">
                 Remover
             </a>
             <hr />
